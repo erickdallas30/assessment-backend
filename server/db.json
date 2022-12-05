@@ -1,0 +1,40 @@
+[
+    {
+      "id": 1,
+      "title": "Mexcian Food",
+      "rating": 5,
+      "imageURL" : "https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/xrpblwcd/0123eb76-36c1-4f92-9e47-99f4f1f7770d.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Italian Food",
+      "rating": 4,
+      "imageURL" : "https://flavorverse.com/wp-content/uploads/2020/11/Italian-Foods.jpg"
+    },
+    {
+      "id": 3,
+      "title": "American Food",
+      "rating": 5,
+      "imageURL" : "https://i0.wp.com/www.realestateagent.com/blog/wp-content/uploads/2020/03/assorted-of-american-food.jpg?fit=800%2C480&ssl=1"
+    },
+    {
+      "id": 4,
+      "title": "Greek Food",
+      "rating": 3,
+      "imageURL" : "https://greecetravelideas.com/wp-content/uploads/2018/08/shutterstock_646209769-min.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Brazilian Food",
+      "rating": 4,
+      "imageURL" : "https://blog.amigofoods.com/wp-content/uploads/2019/04/brazilian-foods.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Brazilian Food",
+      "rating": 4,
+      "imageURL" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8cAbQsnJN90_NHbomQNZePiRguPoilyOQiA&usqp=CAU"
+    }
+
+  
+  ]

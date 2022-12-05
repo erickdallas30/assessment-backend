@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  
+  <body>
+    <div class="food-container">
+  
+      <div>
+        <div class="randonBtns">
+          <div>
+            <button class="randBtns" id="complimentButton">Get a compliment</button>
+          </div>
+          <div>
+            <button class="randBtns" id="fortuneButton">Get a Fortune Cookie</button>
+          </div>
+  
+        </div>
+        <form>
+          <h1>Favorite Food List</h1>
+          <p>Type the name of your favorite food</p>
+          <input type='text' id="title" placeholder="Name your favorite food..." />
+          <p>Add the link address of the picture of your favorite food here</p>
+          <input type='text' id="img" placeholder='paste link of your fav food...' />
+          <section id="ratings-container">
+            <p>Rate your favorite food:</p>
+            <div id="radio-container">
+              <label for="one">
+                <input type="radio" name="ratings" value="1" id="one" />
+                1
+              </label>
+              <label for="two">
+                <input type="radio" name="ratings" value="2" id="two" />
+                2
+              </label>
+              <label for="three">
+                <input type="radio" name="ratings" value="3" id="three" />
+                3
+              </label>
+              <label for="four">
+                <input type="radio" name="ratings" value="4" id="four" />
+                4
+              </label>
+              <label for="five">
+                <input type="radio" name="ratings" value="5" id="five" />
+                5
+              </label>
+            </div>
+          </section>
+          <button class="favFoodBtn">add Favorite Food</button>
+        </form>
+  
+      </div>
+  
+      <div>
+        <section id="foodBox"></section>
+  
+      </div>
+    </div>
+  
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  
+  </body>
+
+</html>
